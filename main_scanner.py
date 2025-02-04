@@ -80,7 +80,6 @@ def parse_nmap_service_probes(file_path):
                                     "matches": [],
                                     "protocol": protocol
                                 }
-#match pop3 m|^\+OK POP3 \[([-\w_.]+)\] v([\d.]+) server ready\r\n| p/UW Imap pop3d/ v/$2/ h/$1/ cpe:/a:uw:imap_toolkit:$2/
                 # Detect match entries
                 elif line.startswith("match "):
                     match_parts = line.split(" ", 2)
