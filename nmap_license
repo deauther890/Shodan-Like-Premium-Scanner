@@ -1,0 +1,9 @@
+This project utilizes Nmap's service probe data to analyze and identify network services.
+
+## Dependencies
+- [Nmap](https://nmap.org/) - Used for service detection and scanning.
+
+## Licensing
+
+This project makes use of Nmap's service probes file, which is licensed under the [Nmap Public Source License](https://nmap.org/npsl/). 
+Nmap itself is licensed under the GNU General Public License (GPL). If you use this project, you must comply with Nmap's licensing terms.
